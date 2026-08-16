@@ -1,0 +1,12 @@
+{
+  "projectName": "BTube",
+  "mainRepository": {
+    "account": "b0987498500-ops",
+    "remoteName": "origin",
+    "branch": "main",
+    "url": "https://github.com/b0987498500-ops/BTube.git"
+  },
+  "checkpointLogPath": "Checkpoints.md",
+  "archiveRulesPath": ".agents/archive_rules/",
+  "versionFormat": "vX.XX"
+}
