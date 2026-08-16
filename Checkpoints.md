@@ -4,6 +4,15 @@
 
 ---
 
+## 📌 [v1.01] - 2026-08-16 10:54 (修復雲端打包 Build Workflow)
+
+### 🌟 核心功能與變更摘要
+1. **修復 GitHub Actions 雲端建置**：
+   - 新增 `gradle.properties`（啟用 AndroidX 與記憶體最佳化）。
+   - 在 `.github/workflows/build_apk.yml` 中新增 `gradle wrapper` 雲端自動補全步驟，修復缺少 `gradle-wrapper.jar` 導致的 10 秒建置失敗問題。
+
+---
+
 ## 📌 [v1.00] - 2026-08-16 10:44 (初始發布/穩定版)
 
 ### 🌟 核心功能與變更摘要
@@ -30,4 +39,4 @@
 
 ### 📦 專案連結
 - **GitHub 倉庫**: `https://github.com/b0987498500-ops/BTube.git`
-- **當前版本 Tag**: `v1.00`
+- **當前版本 Tag**: `v1.01`
